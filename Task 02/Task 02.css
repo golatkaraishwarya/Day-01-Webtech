@@ -1,0 +1,65 @@
+body{
+    background-color: #00000071;
+}
+
+#main-container{
+    height: 80vh;
+    width: 27.5vw;
+    border: 2px solid #000;
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/newsbg.png");  
+    background-size:cover ;
+    /* justify-content: center; */
+    margin: auto;
+    margin-top: 200px;
+}
+
+#text-container{
+    height: 55%;
+    width: 100%;
+    /* border: 2px solid red; */
+    margin-top: 1150px;
+    background-color: #fff;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#text{
+    height: 75%;
+    width: 90%;
+    /* border: 2px solid red; */
+    margin-top: 100px;
+    border-radius: 50px;
+    font-family:sans-serif;
+}
+
+h1{
+    /* font-weight: 1000; */
+    font-size: 90px;
+    color: rgba(70, 55, 55, 0.992);
+}
+
+p{
+    font-size: 60px;
+}
+
+#button-container{
+    display: flex;
+    height: 23%;
+    width: 90%;
+    /* border: 2px solid #000  ;   */
+}
+
+button{
+    height: 150px;
+    width: 400px;
+    font-size: 40px;
+    border-radius: 20px;
+}
+
+.b1{
+    background-color: rgb(6, 30, 57);
+    color: white;
+}

@@ -1,0 +1,67 @@
+body{
+    background-color: #00000071;
+}
+
+#main-container{
+    height: 60vh;
+    width: 20vw;
+    border: 2px solid #000;
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/arvrbg.png");  
+    background-size:cover ;
+    margin: auto;
+    margin-top: 200px;
+}
+
+#text-container{
+    height: 45%;
+    width: 100%;
+    margin-top: 1600px;
+    background-color: #fff;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    display: flex;
+    justify-content: center;    
+}
+
+#text{
+    height: 75%;
+    width: 90%;
+    margin-top: 100px;
+    border-radius: 50px;
+    font-family:sans-serif;
+}
+
+h1{
+    font-size: 90px;
+    color: rgba(31, 70, 154, 0.992);
+}
+
+p{
+    font-size: 60px;
+}
+
+#button-container{
+    display: flex;
+    height: 23%;
+    width: 90%;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+
+button{
+    height: 150px;
+    width: 400px;
+    font-size: 40px;
+    border-radius: 20px;
+}
+
+.b1{
+    background-color: #6f4c4c23;
+    border: none;
+}
+
+.b2{
+    background-color: rgba(31, 70, 154, 0.992) ;
+    color: #fff;
+    border: none;
+}
